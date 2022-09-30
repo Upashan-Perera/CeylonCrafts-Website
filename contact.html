@@ -1,0 +1,86 @@
+<!--Giving information to the browser about what document type to expect-->
+<!DOCTYPE html>
+<!--Declaring the language of the Web page to assist search engines and browsers-->
+<html lang="en">
+  <head>
+    <!--Information about the data inside the HTML document is declared by the meta data-->
+		<!--Specifies the utf-8 character encoding for the HTML document-->
+    <meta charset="utf-8">
+    <!--Setting the viewport to make your website fit on all devices by giving the browser instructions on how to control the page's dimensions and scaling-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Defining the title of the document-->
+    <title>Ceylon Crafts</title>
+    <!--Description about the website-->
+    <meta name="description" content="Official website of Ceylon Crafts">
+    <!--Giving search engines the command to follow-->
+    <meta name="robots" content="index,follow">
+    <!-- Linking the CSS file -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Linking the google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <!-- Linking the javascript file -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/custom.js"></script>
+</head>
+
+  <!--Body contents of the document-->
+  <body>
+       <!-- Adding the header containing our navigation bar with the logo-->
+       <header id="header"></header>
+
+      <!-- Adding the main element to contain the main content for the web page.-->
+      <main>
+        <hr>
+        <!--Adding section to hold the below contents-->
+        <section id="holder3">
+          <h1>Contact Us..</h1>
+            <div>
+                <!--Adding an image inside the form-->
+                <img alt="apply" src="./images/Sri-Lankan-Hand-Carved-Wood-Wall-Decor-Fire-Mask-Wooden-mask-Gift-Asian-Masks-for-Living.jpg">
+            </div>
+
+            <p>Address: 89/2A, Pters road, Colombo 05, Westerns Province, Sri Lanka<br>
+               Telephone: +947 7022 8590<br>
+               Email: info@ceyloncrafts.com</p>
+        
+            <!--Creating a form in POST method-->
+            <form method="POST" action="somefile.php">
+            <!--Creating a seperate div class to contain the general contact details-->
+            <div>
+                <!--Adding a text type input to get the first name of the user-->
+                <p class="a"><label>First Name: <input type="text" name="firstname" required="required"></label></p>
+                <!--Adding a text type input to get the last name of the user-->
+                <p class="a"><label>Last Name: <input type="text" name="lastname" required="required"></label></p>     
+                <!--Adding a email type input to get the email of the user with a placeholer-->
+                <p class="a"><label>Email: </label>
+                    <input type="email" name="emailContact" placeholder="name@domain.com" required="required"/>
+                </p>
+                <!--Adding a telephone type input to get the contact number of the user with a placeholder-->
+                <p class="a"><label>Phone</label>
+                    <input type="tel" name="phone" placeholder="(###)-###-####" />
+                </p>
+                <!--Adding a text type input to get the subject of the user to contact-->
+                <p class="a">
+                    <label>Subject: <input type="text" name="postcode" required="required"></label>
+                </p>
+                <!--Adding a textarea type input to write the message from the user-->
+                <p class="a"><label>Your Message..</label><br>
+                    <textarea class="a" name="Message" rows="4" cols="60">Please enter the message here..</textarea>
+                </p>
+            <!--Adding a submit type and a reset type buttons for the form-->
+            <p class="a">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </p>
+            </div>
+            <br>
+        </form>
+        </section>
+        <hr>
+      </main>
+      <!-- Adding the footer of the webpage -->
+      <footer id="footer"></footer>
+  </body>
+</html>

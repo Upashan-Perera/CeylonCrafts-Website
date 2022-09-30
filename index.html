@@ -1,0 +1,102 @@
+<!--Giving information to the browser about what document type to expect-->
+<!DOCTYPE html>
+<!--Declaring the language of the Web page to assist search engines and browsers-->
+<html lang="en">
+  <head>
+    <!--Information about the data inside the HTML document is declared by the meta data-->
+		<!--Specifies the utf-8 character encoding for the HTML document-->
+    <meta charset="utf-8">
+    <!--Setting the viewport to make your website fit on all devices by giving the browser instructions on how to control the page's dimensions and scaling-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Defining the title of the document-->
+    <title>Ceylon Crafts</title>
+    <!--Description about the website-->
+    <meta name="description" content="Official website of Ceylon Crafts">
+    <!--Giving search engines the command to follow-->
+    <meta name="robots" content="index,follow">
+    <!-- Linking the CSS file -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Linking the google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <!-- Linking the javascript file -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/custom.js"></script>
+  </head>
+
+  <!--Body contents of the document-->
+  <body>
+       <!-- Adding the header containing our navigation bar with the logo-->
+       <header id="header">
+        <div>
+          <a href="index.html"><img src="./images/LogoSample_ByTailorBrands.jpg" alt="logo"></a>
+        </div>
+        <!-- Adding the sites navigation-->
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+       </header>
+
+      <!-- Adding the main element to contain the main content for the web page.-->
+      <main>
+        <hr>
+        <!-- the first row that we will create is commonly referred to as a masthead or hero image-->
+        <section class="row masthead">
+          <div>
+            <h1>Traditional Carved Masks</h1>
+            <!--Linking the product page and contact page-->
+            <a href="products.html">Shop</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </section>
+        <hr>
+
+        <!--Adding section to hold the below contents-->
+        <section id="holder">
+        <!--Adding a section class to contain the paragraph and the image-->
+        <section class="row row2">
+          <div>
+            <img src="./images/mask-industry-sri-lanka-1008d-1.jpg" alt="image 1">
+          </div>
+          <div>
+            <h3>Explained..</h3>
+            <p>Traditional Sri Lankan mask is hand carved by an edura (exorcist), out of local wood and polished using certain plant leaves. Then the mask is painted using natural organic and mineral based pigments.</p>
+          </div>
+        </section>
+          <!--Adding another section class to contain the paragraph and the image-->
+          <section class="row row1">
+            <div>
+              <h3>A Brief History</h3>
+              <p>In Sri Lanka, masks are used for mask dances. According to traditional beliefs, hanging masks in the household cast off the evil eye. Masks are used for traditional low country dances.There are three types of mask dances Kolam (Folktale), Raksha (Demon) and Sanni (Devil Dance).</p>
+            </div>
+            <div>
+              <img src="./images/devil-dancers-sri-lanka.jpg.crdownload" alt="image 2">
+            </div>
+          </section>
+          <!--Adding a seperate section class to hold the images-->
+          <section class="row row3">
+            <div>
+              <img src="./images/pro8-300x300.jpeg" alt="image 3">
+            </div>
+            <div>
+              <img src="./images/pro11.jpeg" alt="image 4">
+            </div>
+            <div>
+              <img src="./images/s-l300.jpg" alt="image 5">
+            </div>
+            <div>
+              <img src="./images/4621492a3a99160a1ceac9f8e072f209.jpg" alt="image 6">
+            </div>
+          </section>
+        </section>
+      </main>
+      <!-- Adding the footer of the webpage -->
+      <footer id="footer"></footer>
+  </body>
+</html>
