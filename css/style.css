@@ -1,0 +1,513 @@
+/*adding the styling of the body*/
+body{
+  margin: 0px;
+  display:grid;
+}
+/*adding the text styling of the headers*/
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+/*adding the styling of p,a */
+p, a,li{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 20px;
+}
+header{
+  display: flex;
+  align-items: center;
+  height: 90px;
+}
+header > div {
+  flex-grow: 1;
+  height: 225px;
+}
+/*adding the styling of the logo*/
+header > div > a > img{
+  height: 100%;
+  width: auto;
+}
+/*adding the styling of the sites navigation list in the navigation bar*/
+header > nav > ul{
+  display: flex ;
+  list-style: none;
+}
+/*adding the padding styling of the sites navigation list in the navigation bar*/
+header > nav > ul > li{
+  padding: 0px 20px;
+  border-right: 1px solid #000;
+}
+/*Deleting the last right border of the navigation bar*/
+header > nav > ul > li:last-of-type{
+  border-right: none;
+}
+/*styling the naviagation links*/
+header > nav > ul > li > a{
+  color: black;
+  text-decoration: none;
+}
+/*Styling the masthead class*/
+.masthead{
+  margin-right:auto;
+  margin-left:auto;
+  margin-top:3%;
+  margin-bottom:3%;
+  background-size: cover;
+  height: 60vh;
+  width: 100vh;
+  background-image:url('../images/2188027692_b616de2ccc.jpg');
+  display: flex;
+  align-items: center;
+}
+/*Styling the heading text inside masthead class*/
+.masthead > div{
+  background-color: rgba(14, 11, 11, 0.747);
+  color: #fff;
+  padding: 55px;
+  font-size: 26px;
+  text-align: center;
+}
+.masthead > div > h1{
+  color: #fff;
+  font-size: 46px;
+  margin-bottom:10%;
+  text-shadow: 4px 3px 3px #2b2929;
+}
+.masthead > div > a{
+    margin-left:auto;
+    margin-right:auto;
+    text-decoration: none;
+    color: #ffffff;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 3px;
+    border-width: 3px;
+    padding: 10px 25px;
+    margin-right: 5px;
+  }
+#holder {
+  background-color:black;
+  margin-top:3%;
+  margin-left:5% ;
+  margin-right:5%;
+  margin-bottom:3%;
+}
+#holder1 {
+  background-color:black;
+  margin-top:3%;
+  margin-left:5% ;
+  margin-right:5%;
+  margin-bottom:3%;
+}
+#holder1 > h1{
+  padding:25px;
+  color:white;
+}
+#holder1 > div > img {
+  width: 45%;
+  height: auto;
+  margin-left: 28%;
+  align-items: center;
+}
+#holder1 > div > p {
+  padding:25px;
+  color:white;
+  text-align: center;
+}
+#holder2 {
+  background-color:black;
+  margin-top:3%;
+  margin-left:25% ;
+  margin-right:25%;
+  margin-bottom:3%;
+}
+#holder2 > h1{
+  padding:25px;
+  color:white;
+}
+#holder2 > div > img {
+  width: 30%;
+  height: auto;
+  margin-left: 34%;
+  align-items: center;
+}
+#holder2 > div > p {
+  padding:25px;
+  color:white;
+  text-align: center;
+}
+#holder3 {
+  background-color:black;
+  margin-top:3%;
+  margin-left:25% ;
+  margin-right:25%;
+  margin-bottom:3%;
+}
+#holder3 > div > img {
+  width: 50%;
+  height: auto;
+  margin-left: 26%;
+  align-items: center;
+}
+#holder3 > h1{
+  padding:25px;
+  color:white;
+}
+#holder3 > form > div > p {
+  padding:25px;
+  color:white;
+  text-align: center;
+}
+#holder3 > p {
+  padding:25px;
+  color:white;
+  text-align: center;
+}
+#holder4 {
+  background-color:black;
+  margin-top:3%;
+  margin-left:2% ;
+  margin-right:2%;
+  margin-bottom:3%;
+}
+#holder4 > h1{
+  padding:25px;
+  color:white;
+}
+#holder4 > div > img {
+  width: 30%;
+  height: auto;
+  align-items: center;
+}
+#holder4 > div > p {
+  padding:25px;
+  color:white;
+  text-align: center;
+}
+.a {
+  max-width:100%;
+}
+.highlight{
+  background-color: darkgrey;
+  color: #fff;
+}
+ .num1 , .num2 ,.num3 , .num4 , .num5 , .num6 {
+    border: 5px solid white ;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  .num1 > p, .num2 > p , .num3 > p , .num4 > p , .num5 > p , .num6 > p {
+    color:white;
+  }
+/*Styling the row class*/
+.row{
+  display: grid;
+  grid-template-rows: auto;
+  padding: 2%;
+}
+/*Styling the first two rows into 2 50% columns*/
+.row1, .row2{
+  grid-template-columns: repeat(2, 50%);
+  align-items: center;
+  color:white;
+}
+/*Adding styling to the row classes*/
+.row1 > div,
+.row2 > div{
+  padding: 5px;
+}
+.row1 > div > h3,
+.row2 > div > h3{
+  font-size: 28px;
+}
+.row1 > div > p,
+.row2 > div > p{
+  text-align: center;
+}
+.row1 > div > img,
+.row2 > div > img{
+  width: 100%;
+  height: auto;
+}
+/*Styling the thrid row class to 4 columns*/
+.row3{
+  display: flex;
+  width: 100%;
+  padding: 5px;
+  margin-top:inherit;
+}
+.row3 > div{
+  flex: 25%;
+  text-align: center;
+}
+.row3 > div > img{
+  width: 75%;
+  height: 60%;
+}
+input[type=submit], input[type=reset] {
+    margin-left:auto;
+    margin-right:auto;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000;
+    border-style: solid;
+    border-color:#ffffff;
+    border-radius: 3px;
+    border-width: 3px;
+    padding: 10px 25px;
+    margin-right: 5px;
+}
+/*adding the styling for the footer*/
+footer{
+  background-color: #000;
+  padding: 25px;
+  color: whitesmoke;
+}
+
+
+/*Responsive styling to the devices with maximum width of 1024 pixels*/
+@media screen and (max-width: 1024px){
+  body{
+    margin: 0px;
+    display:grid
+   
+   }
+  .masthead{
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:3%;
+    margin-bottom:3%;
+    background-size: cover;
+    height: 40vh;
+    width: 80vh;
+    background-image:url('../images/2188027692_b616de2ccc.jpg');
+    display: flex;
+    align-items: center;
+  }
+  /*Styling the heading text inside masthead class*/
+  .masthead > div{
+    margin-right:auto;
+    margin-left:auto;
+    background-color: rgba(14, 11, 11, 0.747);
+    color: #fff;
+    padding: 45px;
+    text-align: center;
+  }
+  .masthead > div > h1{
+    margin-right:auto;
+    margin-left:auto;
+    color: #fff;
+    font-size: 26px;
+    margin-bottom:10%;
+  }
+  .masthead > div > a{
+      margin-left:auto;
+      margin-right:auto;
+      font-size: 10px;
+      text-decoration: none;
+      color: #ffffff;
+      border-style: solid;
+      border-color: #ffffff;
+      border-radius: 3px;
+      border-width: 3px;
+      padding: 5px 10px;
+    }
+    #holder3 > div > img {
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    align-items: center;
+  }
+  footer{
+    font-size: 10px;
+    margin-top:auto;
+  }
+}
+
+/*Responsive styling to the devices with maximum width of 600 pixels*/
+@media screen and (max-width: 600px){
+
+  body{
+    margin: 0px;
+    display:grid;
+   
+   }
+  /*Styling the masthead class*/
+.masthead{
+  margin-right:auto;
+  margin-left:auto;
+  margin-top:3%;
+  margin-bottom:3%;
+  background-size: cover;
+  height: 40vh;
+  width: 80vh;
+  background-image:url('../images/2188027692_b616de2ccc.jpg');
+  display: flex;
+  align-items: center;
+}
+/*Styling the heading text inside masthead class*/
+.masthead > div{
+  margin-right:auto;
+  margin-left:auto;
+  background-color: rgba(14, 11, 11, 0.747);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.masthead > div > h1{
+  margin-right:auto;
+  margin-left:auto;
+  color: #fff;
+  font-size: 36px;
+  margin-bottom:10%;
+}
+.masthead > div > a{
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 3px;
+    border-width: 3px;
+    padding: 5px 10px;
+    margin-right: 5px;
+  }
+  #holder {
+    background-color:black;
+  }
+  /*Adding styling to the row classes*/
+  .row1 > div > p,
+  .row2 > div > p{
+    padding: 5px;
+    font-size:inherit;
+  }
+  .row3 > div > p{
+    font-size:inherit;
+  }
+  footer{
+    font-size: 10px;
+  }
+}
+ 
+/*Responsive styling to the devices with maximum width of 460 pixels*/
+@media screen and (max-width: 460px){
+
+  body{
+    margin: 0px;
+    display: contents;
+  }
+  header{
+    flex-direction: column;
+    height: 150px;
+  }
+  header > div {
+    flex-grow: 1;
+    height: 12px;
+  }
+  header > div > a > img{
+    height: 150%;
+  }
+  header > nav > ul{
+    display: flex ;
+    list-style: none;
+    padding : inherit
+  }
+  header > nav{
+    max-width:100%
+  }
+  p, a{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 15px;
+  }
+  /*Styling the masthead class*/
+  .masthead{
+    margin-left:auto;
+    margin-right:auto;
+    display: grid;
+    height: 30vh;
+    width: 40vh;
+    background-image:url('../images/2188027692_b616de2ccc.jpg');
+    display: flex;
+    align-items: center;
+  }
+  .masthead > div{
+  margin-left:auto;
+  margin-right:auto;
+  color: #fff;
+  padding:15px;
+  font-size: 3px;
+  text-align: center;
+  }
+  .masthead > div > h1{
+    margin-left:auto;
+    margin-right:auto;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom:15%;
+  }
+  .masthead > div > a{
+      margin-left:auto;
+      margin-right:auto;
+      font-size:10px;
+      text-decoration: none;
+      color: #ffffff;
+      border-style: solid;
+      border-color: #ffffff;
+      border-radius: 5px;
+      border-width: 3px;
+      padding: 5px 5px;
+      margin-right: 5px;
+  }
+  .row1 , .row2{
+    grid-template-columns: repeat(1, 100%);
+  }
+  /*switching element places using nth-child to make it similar to the design*/
+  .row1 > div:nth-child(1){
+    order: 2;
+  }
+  .row1 > div:nth-child(2){
+    order: 1;
+  }
+  .row1 > div > p,
+  .row2 > div > p{
+    text-align: center;
+  }
+  .row2 > div > img {
+    border: #000;
+  }
+  .row1 > div > h3,
+  .row2 > div > h3{
+    font-size: medium;
+    text-align: center;
+  }
+  .row3{
+    display: grid;
+    width: 100%;
+    padding: 5px;
+    grid-template-columns: repeat(2, 50%);
+    align-items: center;
+  }
+  .row3 > div > img{
+    height: auto;
+  }
+  footer{
+    padding: 25px;
+    font-size: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  #holder1 > div > img {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+  }
+  #holder3 {
+    background-color:black;
+    margin-top:3%;
+    margin-left:15% ;
+    margin-right:15%;
+    margin-bottom:3%;
+  }
+}
